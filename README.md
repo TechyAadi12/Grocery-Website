@@ -1,16 +1,63 @@
-# React + Vite
+# Grocery Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern grocery website built using React and Vite. It provides a seamless user experience with features like product browsing, cart management, and detailed product views. The application is styled with Tailwind CSS and leverages Zustand for state management.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home Page**: Displays featured products and categories.
+- **Product Listing**: Browse through a variety of grocery items.
+- **Product Details**: View detailed information about a specific product.
+- **Cart Management**: Add, remove, and manage items in the cart.
+- **Responsive Design**: Fully responsive for mobile and desktop devices.
+- **Reusable Components**: Modular and reusable components for scalability.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React, React Router
+- **State Management**: Zustand
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Build Tool**: Vite
+- **Linting**: ESLint
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd grocery-website
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Scripts
+
+- **Development**: `npm run dev` - Starts the development server.
+- **Build**: `npm run build` - Builds the project for production.
+- **Preview**: `npm run preview` - Previews the production build.
+- **Lint**: `npm run lint` - Runs ESLint to check for code quality.
+
+## Folder Structure
+
+- **src/**: Contains the source code.
+  - **components/**: Reusable components categorized by feature.
+  - **pages/**: Page components for routing.
+  - **store/**: Zustand stores for state management.
+  - **utils/**: Utility functions.
+  - **assets/**: Static assets like images.
+
+## License
+
+This project is licensed under the MIT License.
